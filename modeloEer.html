@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>e-commerce model</title>
+    <link rel="stylesheet" href="src/style.css">
+</head>
+<body class="light-mode">
+    <header id="headder">
+        <button class="toggle-button" onclick="toggleMode()"><h1>💡</h1></button>
+    </header>
+    <div class="container">
+        <h1>DESAFIO - Objetivo:</h1>
+        <div id="parag">
+                <pre> 
+                    <h2>
+                Refine o modelo apresentado acrescentando os seguintes pontos: <br><br>
+                Cliente PJ e PF – Uma conta pode ser PJ ou PF, mas não pode ter as duas informações; <br>
+                Pagamento – Pode ter cadastrado mais de uma forma de pagamento; <br>
+                Entrega – Possui status e código de rastreio;
+                </h2>
+                </pre>
+        </div>
+        
+        <img id="imag" width="1200" height="1000" src="./Captura de tela 2025-02-26 004601.png" alt="">
+        
+    </div>
+    <script>
+        function toggleMode() {
+            document.body.classList.toggle('dark-mode');
+            document.body.classList.toggle('light-mode');
+        }
+    </script>
+</body>
+</html>
